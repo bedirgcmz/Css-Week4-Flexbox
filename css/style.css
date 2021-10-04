@@ -1,0 +1,187 @@
+/* General css start*/
+* {
+  box-sizing: border-box;
+}
+#main-content {
+  width: 660px;
+  margin: auto;
+  font-family: sans-serif;
+  color: #aeacac;
+  box-shadow: rgb(0 0 0 / 20%) 0px 35px 40px 0px, rgb(0 0 0 / 10%) 8px 3px 4px 0px,
+    rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+}
+/* General css end*/
+
+/* header content css start*/
+.content {
+  height: 400px;
+  position: relative;
+}
+
+.header-point-arrow {
+  position: absolute;
+  display: flex;
+  color: rgb(215 214 214);
+  font-size: 30px;
+  padding: 15px;
+  z-index: 1;
+}
+
+.point {
+  margin-left: 575px;
+}
+
+.point:hover {
+  opacity: 0.5;
+}
+
+.header-arrow:hover {
+  opacity: 0.5;
+}
+
+#header-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.img-content {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  left: 35px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 17px 15px -3px, rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+}
+
+.img-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  position: absolute;
+  top: -80px;
+  left: 37%;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px,
+    rgb(0 0 0 / 20%) 0px -3px 0px inset;
+}
+
+.img-content h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.img-content p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.social-media {
+  position: absolute;
+  top: 360px;
+  left: 220px;
+  display: flex;
+  justify-content: space-around;
+  width: 260px;
+  color: slategray;
+  font-size: 20px;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+  font-size: 22px;
+}
+
+.information {
+  position: absolute;
+  top: 420px;
+  left: 150px;
+  width: 400px;
+  text-align: center;
+}
+/* header content css end*/
+
+/*Page down css start*/
+#page-down {
+  width: 100%;
+}
+
+#page-down > h2 {
+  margin-top: 0;
+  padding-top: 200px;
+  margin-left: 35px;
+}
+
+#page-down-content {
+  width: 90%;
+  margin: auto;
+  box-shadow: rgb(0 0 0 / 10%) 0px 17px 15px -3px, rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+}
+
+.setting-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.setting-row:hover {
+  background-color: #d3d3d366;
+}
+
+.setting-row-icon {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.setting-row p {
+  font-size: 22px;
+  margin: 0;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.setting-row-arrows {
+  font-size: 25px;
+  margin-left: auto;
+}
+
+.fa-envelope-open {
+  color: rgb(20, 170, 230);
+}
+
+.fa-key {
+  color: rgb(35, 212, 109);
+}
+
+.fa-info-circle {
+  color: rgb(233, 59, 103);
+}
+
+.fa-sign-out-alt {
+  color: #f5bf1e;
+}
+/*Page down css end*/
+
+/*Footer css start*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 -4px 8px rgb(0 0 0 / 20%);
+  padding: 16px 40px;
+  height: 65px;
+}
+
+#footer-container h2 {
+  margin: 45px 0 23px 30px;
+}
+
+.footer-content:hover {
+  opacity: 0.7;
+  font-size: 18px;
+}
+/*Footer css end*/

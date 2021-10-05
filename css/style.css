@@ -1,16 +1,58 @@
-/* General css start*/
+/* General css*/
 * {
   box-sizing: border-box;
 }
+
+/* Body circles css start */
+#body-circles {
+  width: 100%;
+}
+.body-circles {
+  position: absolute;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+
+.body-circles:nth-child(1) {
+  width: 125px;
+  height: 125px;
+  left: 250px;
+  top: -20px;
+}
+
+.body-circles:nth-child(2) {
+  width: 320px;
+  height: 320px;
+  left: -95px;
+  top: 715px;
+}
+
+.body-circles:nth-child(3) {
+  width: 260px;
+  height: 260px;
+  right: 0px;
+  top: -66px;
+}
+
+.body-circles:nth-child(4) {
+  width: 250px;
+  height: 250px;
+  right: 0px;
+  top: 1050px;
+}
+/* Body circles css end */
+
+/* Main css start */
 #main-content {
   width: 660px;
-  margin: auto;
+  margin: 100px auto 0 auto;
+
   font-family: sans-serif;
   color: #aeacac;
   box-shadow: rgb(0 0 0 / 20%) 0px 35px 40px 0px, rgb(0 0 0 / 10%) 8px 3px 4px 0px,
     rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
 }
-/* General css end*/
+/* Main css end */
 
 /* header content css start*/
 .content {
